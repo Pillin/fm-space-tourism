@@ -1,25 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
+import styled from '@emotion/styled';
+
 import './App.css';
+import Routers from './routes';
+
+
+const Container = styled.section`
+  background-color: #0b0d17;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+`;
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container>
+      <Routers />
+    </Container>
   );
 }
 
