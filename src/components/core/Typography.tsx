@@ -27,25 +27,24 @@ export const H1 = styled.h1`
 `;
 
 export const H2 = styled.h2`
-  color: #2b3442;
+  color: #FFFFFF;
   font-weight: 400;
   margin: 0px;
   font-size: 100px;
-  line-height: 33px;
+  text-transform: uppercase;
   font-family: 'Bellefair', serif;
 `;
 
 export const H3 = styled.h3`
-  color: #0079ff;
+  color: #FFFFFF;
   font-weight: 400;
   margin: 0px;
   font-size: 56px;
-  line-height: 24px;
   font-family: 'Bellefair', serif;
 `;
 
 export const H4 = styled.h4`
-  color: #2b3442;
+  color: #ffffff80;
   font-weight: 400;
   margin: 0px;
   font-size: 32px;
@@ -58,8 +57,14 @@ export const H5 = styled.h5`
   font-weight: 600;
   margin: 0px;
   font-size: 28px;
-  line-height: 23px;
+
   font-family: 'Barlow Condensed', sans-serif;
+`;
+
+export const H5White = styled(H5)`
+  color: white;
+  letter-spacing: 4.72px;
+  text-transform: uppercase;
 `;
 
 export const SubHeadingOne = styled.p`
@@ -67,17 +72,20 @@ export const SubHeadingOne = styled.p`
   font-size: 28px;
   font-weight: 400;
   margin: 0px;
-  font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Bellefair', serif;
   letter-spacing: 4.72px;
+  text-transform: uppercase;
   @media (max-width: 600px) {
     font-size: 16px;
   }
 `;
 
 export const SubHeadingTwo = styled.p`
+color: #D0D6F9;
   font-size: 16px;
   font-weight: 400;
   margin: 0px;
+  text-transform: uppercase;
   font-family: 'Barlow Condensed', sans-serif;
 `;
 

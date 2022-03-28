@@ -17,16 +17,16 @@ export default function Routers() {
   return <Router>
     <NavBar />
     <Switch>
-      <Route path="/">
+      <Route exact path="/">
         <Home />
       </Route>
-      <Route path="/destination">
+      <Route exact path="/destination">
         <Destination />
       </Route>
-      <Route path="/technology">
+      <Route exact path="/technology">
         <Technology />
       </Route>
-      <Route path="/crew">
+      <Route exact path="/crew">
         <Crew />
       </Route>
     </Switch>
